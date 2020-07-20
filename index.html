@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Fylo data storage component</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        display: none;
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img src="/images/logo.svg" alt="logo" />
+        <div class="header-service-list">
+          <img src="/images/icon-document.svg" alt="" class="header-ico" />
+          <img src="/images/icon-folder.svg" alt="" class="header-ico" />
+          <img src="/images/icon-upload.svg" alt="" class="header-ico" />
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="content-wrapper">
+          <div class="balloon">
+            <p><strong>185 </strong> <small>GB Left</small></p>
+          </div>
+          <div>
+            <div class="description">
+              <p>You’ve used <strong>815 GB</strong> of your storage</p>
+            </div>
+            <div class="loader-wrapper">
+              <div class="loader-outer">
+                <div class="loader-inner"></div>
+              </div>
+              <div class="loader-labels">
+                <span class="loader-label-item">0 GB</span>
+                <span class="loader-label-item">1000 GB</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
