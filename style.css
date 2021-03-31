@@ -28,7 +28,7 @@ body {
   background-color: var(--very-dark-blue);
   background-image: url("./images/bg-desktop.png");
   background-repeat: space;
-  background-position: bottom;
+  background-position: bottom -40% center;
 
   padding: 0 24px;
 }
